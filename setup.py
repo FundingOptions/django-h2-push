@@ -7,7 +7,7 @@ def read(file_name):
 
 
 setup(
-    name='django-static-preload',
+    name='django-h2-push',
     version='0.1a1',
     description="A django app that assists with generating HTTP/2 Server Push "
                 "headers for reverse proxies, such as h2o and apache",
@@ -15,8 +15,8 @@ setup(
     author="Anthony King",
     author_email="anthony.king@fundingoptions.com",
     license="GPLv3",
-    url="https://github.com/FundingOptions/django-static-preload",
-    packages=['static_preload'],
+    url="https://github.com/FundingOptions/django-h2-push",
+    packages=['django_h2_push'],
     install_requires=[],
     classifiers=[
         "Development Status :: 1 - Planning",

@@ -1,1 +1,1 @@
-# django-static-preload
+# django-h2-push
